@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 363024204}
   - component: {fileID: 363024206}
   m_Layer: 0
-  m_Name: c 1
+  m_Name: Empty mug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363024203}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.38, y: -2.76, z: 0}
+  m_LocalPosition: {x: 3.44, y: -2.96, z: -2}
   m_LocalScale: {x: 0.47222418, y: 0.48263854, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -265,7 +265,7 @@ RectTransform:
   - {fileID: 956542009}
   - {fileID: 538636277}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -654,7 +654,7 @@ Transform:
   m_LocalScale: {x: 1.6059924, y: 1.8548524, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1098748741
 GameObject:
@@ -670,9 +670,9 @@ GameObject:
   - component: {fileID: 1098748743}
   - component: {fileID: 1098748744}
   m_Layer: 0
-  m_Name: Coffee_Pot_PNG_Picture
+  m_Name: Coffee Pot
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -781,15 +781,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098748741}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.62}
   m_LocalScale: {x: 0.6315, y: 0.6315, z: 0.6315}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.8921, y: -1.5521}
+  m_AnchoredPosition: {x: -5.48, y: -1.29}
   m_SizeDelta: {x: 5.7169, y: 5.8602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1419098485
@@ -856,7 +856,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1699843159
 GameObject:
@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 1699843163}
   - component: {fileID: 1699843162}
   m_Layer: 0
-  m_Name: 1_0
+  m_Name: Mocha Sauce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -936,7 +936,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699843159}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.82, y: -1.59, z: 0}
+  m_LocalPosition: {x: -0.51, y: -1.54, z: -2}
   m_LocalScale: {x: 0.7769, y: 0.7769, z: 0.7769}
   m_Children: []
   m_Father: {fileID: 0}
@@ -993,7 +993,7 @@ GameObject:
   - component: {fileID: 1704456886}
   - component: {fileID: 1704456885}
   m_Layer: 0
-  m_Name: uploads_milk_milk_PNG12739
+  m_Name: Milk Jug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1062,7 +1062,7 @@ Transform:
   m_LocalScale: {x: 0.25313628, y: 0.25313628, z: 0.25313628}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1704456885
 MonoBehaviour:
@@ -1131,7 +1131,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2031169277
 MonoBehaviour:
@@ -1195,5 +1195,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
