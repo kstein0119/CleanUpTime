@@ -54,7 +54,7 @@ public class SnapController : MonoBehaviour
                 itemIndex = itemIndex + 1;
             }
 
-            _title.text = itemIndex.ToString() + "/4 ITEMS ADDED";
+            _title.text = itemIndex.ToString() + "/6 Toys Cleaned Up";
 
             // Will update the existing text, but should probably be a bar or something else as I"d need to either
             // add 4 strings to address 0 through 4 items added, or add with an integer and convert to a string
