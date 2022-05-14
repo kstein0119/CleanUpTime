@@ -10,6 +10,9 @@ public class SnapController : MonoBehaviour
     public List<Draggable> draggableObjects;
     public float snapRange = 0.5f;
 
+    private bool isSnapped = false;
+    int itemIndex = 0;
+
     [SerializeField]
     private Text _title;
 
@@ -25,6 +28,7 @@ public class SnapController : MonoBehaviour
 
     private void OnDragEnded(Draggable draggable)
     {
+        isSnapped = false;
         float closestDistance = -1;
         Transform closestSnapPoint = null;
 
@@ -43,12 +47,22 @@ public class SnapController : MonoBehaviour
             draggable.transform.localPosition = closestSnapPoint.localPosition;
             print("Snapped!");
 
-            _title.text = "1/4 ITEMS ADDED";
+            isSnapped = true;
+
+            if (isSnapped)
+            {
+                itemIndex = itemIndex + 1;
+            }
+
+            _title.text = itemIndex.ToString() + "/4 ITEMS ADDED";
+
             // Will update the existing text, but should probably be a bar or something else as I"d need to either
             // add 4 strings to address 0 through 4 items added, or add with an integer and convert to a string
             // also still need to get rid of the game object after it's in the basket 
 
+
         }
 
+        
     }
 }

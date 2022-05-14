@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 363024204}
   - component: {fileID: 363024206}
   m_Layer: 0
-  m_Name: Empty mug
+  m_Name: Mug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -670,7 +670,7 @@ GameObject:
   - component: {fileID: 1098748743}
   - component: {fileID: 1098748744}
   m_Layer: 0
-  m_Name: Coffee Pot
+  m_Name: CoffeePot
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -792,6 +792,53 @@ RectTransform:
   m_AnchoredPosition: {x: -5.48, y: -1.29}
   m_SizeDelta: {x: 5.7169, y: 5.8602}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1210884947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1210884949}
+  - component: {fileID: 1210884948}
+  m_Layer: 0
+  m_Name: testcontroller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1210884948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210884947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 784b1521cf637c84aa688a51b55411c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeePot: {fileID: 1098748743}
+  milkJug: {fileID: 1704456886}
+  chocoSauce: {fileID: 1699843163}
+  mug: {fileID: 363024206}
+--- !u!4 &1210884949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210884947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.30384, y: 1.7010115, z: -1062.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1419098485
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,7 +918,7 @@ GameObject:
   - component: {fileID: 1699843163}
   - component: {fileID: 1699843162}
   m_Layer: 0
-  m_Name: Mocha Sauce
+  m_Name: ChocoSauce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -993,7 +1040,7 @@ GameObject:
   - component: {fileID: 1704456886}
   - component: {fileID: 1704456885}
   m_Layer: 0
-  m_Name: Milk Jug
+  m_Name: Milk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
