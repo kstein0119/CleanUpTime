@@ -17,12 +17,12 @@ public class MainMenuScript : MonoBehaviour
 
     public void WinGameTimeBonus()
     {
-        // load "yay you win and you're fast as hell" and show like a cookie or something 
+        SceneManager.LoadScene("BonusWinScene");
     }
 
     public void WinGameNoBonus()
     {
-        // load "yay you win but not fast"
+        SceneManager.LoadScene("NormalWinScene");
     }
 
     public void GoToMainMenu()

@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FailScene.unity
     guid: b93f4ed4d1f86a947a843f18732cd8b7
+  - enabled: 1
+    path: Assets/Scenes/NormalWinScene.unity
+    guid: 584db80c179d78c49aa47fd77e64528c
+  - enabled: 1
+    path: Assets/Scenes/BonusWinScene.unity
+    guid: 9af23c5f4dcde804e8c23fd9e7e8ce15
   m_configObjects: {}
