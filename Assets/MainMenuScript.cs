@@ -10,21 +10,6 @@ public class MainMenuScript : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
-    public void FailGame()
-    {
-        SceneManager.LoadScene("FailScene");
-    }
-
-    public void WinGameTimeBonus()
-    {
-        SceneManager.LoadScene("BonusWinScene");
-    }
-
-    public void WinGameNoBonus()
-    {
-        SceneManager.LoadScene("NormalWinScene");
-    }
-
     public void GoToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");

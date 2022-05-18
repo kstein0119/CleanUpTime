@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SnapController : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class SnapController : MonoBehaviour
     public float snapRange = 0.5f;
 
     private bool isSnapped = false;
-    int itemIndex = 0;
+    public int itemIndex = 0;
 
     [SerializeField]
     private Text _title;
@@ -56,13 +57,49 @@ public class SnapController : MonoBehaviour
 
             _title.text = itemIndex.ToString() + "/6 Toys Cleaned Up";
 
-            // Will update the existing text, but should probably be a bar or something else as I"d need to either
-            // add 4 strings to address 0 through 4 items added, or add with an integer and convert to a string
-            // also still need to get rid of the game object after it's in the basket 
+            if(itemIndex == 6)
+            {                
+
+                Timer myClock = FindObjectOfType<Timer>();
+                float stopTime = myClock.getTime();
+
+                print(stopTime);
 
 
+                if (stopTime < 10.0f)
+                {
+                    WinGameTimeBonus();
+
+                    //menuManager.WinGameTimeBonus();
+                }
+                else if(stopTime > 10.0f && stopTime < 30.0f)
+                {
+                    WinGameNoBonus();
+
+                    //menuManager.WinGameNoBonus();
+                }
+                else if(stopTime > 30.0f)
+                {
+                    FailGame();
+
+                    //  menuManager.FailGame();
+                }
+
+            }
         }
+    }
+    public void FailGame()
+    {
+        SceneManager.LoadScene("FailScene");
+    }
 
-        
+    public void WinGameTimeBonus()
+    {
+        SceneManager.LoadScene("BonusWinScene");
+    }
+
+    public void WinGameNoBonus()
+    {
+        SceneManager.LoadScene("NormalWinScene");
     }
 }

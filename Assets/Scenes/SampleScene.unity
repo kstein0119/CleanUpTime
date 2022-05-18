@@ -1589,6 +1589,7 @@ MonoBehaviour:
   - {fileID: 783246328}
   - {fileID: 1294445933}
   snapRange: 3
+  itemIndex: 0
   _title: {fileID: 538636278}
 --- !u!1 &2070914881
 GameObject:
